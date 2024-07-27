@@ -16,9 +16,11 @@ public class Main {
         //Ініціалізуємо змінну для розрахунку суми податку
         double tax;
 
+        //Розраховуємо податок із суми доходів
+        //Виводимо значення, враховуючи діапазон суми доходів
         if (profit <= 10000) {
             tax = profit * 2.5 / 100;
-            System.out.printf("Tax = " + tax);
+            System.out.println("Tax = " + tax);
         } else if (profit <= 25000) {
             tax = profit * 4.3 / 100;
             System.out.println("Tax = " + tax);
